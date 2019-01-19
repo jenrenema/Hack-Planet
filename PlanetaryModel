@@ -1,4 +1,3 @@
-# Pong Game
 import uagame
 import pygame
 import time
