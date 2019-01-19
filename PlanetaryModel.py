@@ -1,4 +1,3 @@
-
 # Planetary Model
 import uagame
 import pygame
@@ -9,8 +8,8 @@ from pygame.locals import *
 def main():
 
     # Create window
-    width = 1360
-    height = 695
+    width = 1000
+    height = 600
     window = uagame.Window('Planetary Model', width, height)
     window.set_auto_update(False)
 
