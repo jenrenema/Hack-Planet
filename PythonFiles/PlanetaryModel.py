@@ -8,8 +8,8 @@ from pygame.locals import *
 def main():
 
     # Create window
-    width = 600
-    height = 600
+    width = 650
+    height = 650
     window = uagame.Window('Planetary Model', width, height)
     window.set_auto_update(False)
 
