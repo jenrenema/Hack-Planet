@@ -65,4 +65,22 @@ class Game:
         self.window.update()
 
 
+class Planet:
+
+    def __init__(self, w, m, i, position, velocity):
+        self.window = w
+        self.mass = m
+        self.image = i
+        self.velocity = velocity
+        self.position = position
+
+    def update_game_objects(self):
+
+        pass
+
+    def draw_frame(self):
+
+        self.window.clear()
+
+
 main()
