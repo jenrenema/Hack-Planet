@@ -67,10 +67,10 @@ class Game:
 
 class Planet:
 
-    def __init__(self, w, m, i, position, velocity):
-        self.window = w
-        self.mass = m
-        self.image = i
+    def __init__(self, window, mass, image, position, velocity):
+        self.window = window
+        self.mass = mass
+        self.image = image
         self.velocity = velocity
         self.position = position
 
@@ -80,7 +80,7 @@ class Planet:
 
     def draw_frame(self):
 
-        self.window.clear()
+        pass
 
 
 main()
