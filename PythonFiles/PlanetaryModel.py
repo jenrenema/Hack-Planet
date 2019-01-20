@@ -68,11 +68,12 @@ class Game:
 class Planet:
 
     def __init__(self, window, mass, image, position, velocity):
+
         self.window = window
         self.mass = mass
         self.image = image
-        self.velocity = velocity
         self.position = position
+        self.velocity = velocity
 
     def update_game_objects(self):
 
