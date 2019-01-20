@@ -32,7 +32,7 @@ class Game:
         # - window is a uagame.Window object
 
         self.window = window
-        self.pause_time = 0.005
+        self.pause_time = 0.01
         self.close_clicked = False
         self.continue_game = True
 
@@ -72,15 +72,15 @@ class Planet:
         self.window = window
         self.mass = mass
         self.radius = radius
-        self.image = image
+        # self.image = image
         self.position = position
         self.velocity = velocity
 
-    def update_game_objects(self):
+    def draw_frame(self):
 
         pass
 
-    def draw_frame(self):
+    def update_game_objects(self):
 
         pass
 
